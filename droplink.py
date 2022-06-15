@@ -39,5 +39,4 @@ def droplink_bypass(url):
 
 # ==============================================
 
-inf = droplink_bypass(url)
-print("❤️✨BYPASSED DROPLINKS LINK: "+ inf + " ❤️✨" ,file=open("2.txt", "w"))
+print(droplink_bypass(url) ,file=open("2.txt", "w"))
